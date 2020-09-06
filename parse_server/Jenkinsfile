@@ -32,7 +32,7 @@ pipeline {
          }
         stage('Tag Docker Image') {
            steps {
-                sh 'docker build -t satyam88/parse_server .'
+                sh 'docker build -t AKVanshi/parse_server .'
            }
          }
 
